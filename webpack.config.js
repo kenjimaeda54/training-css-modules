@@ -34,19 +34,49 @@ module.exports = {
         },
       },
       {
-          test: /\.css$/i,
-          use: [
-            "style-loader",
-            {
-              loader: "css-loader",
-              options: {
-                modules: true,
-                importLoaders: 1,
-              },
+
+        test: /\.css$/i,
+
+        use: [
+
+          {
+
+            loader: 'style-loader',
+
+            options: {
+
+              injectType: 'singletonStyleTag',
+
             },
-            "postcss-loader",
-          ],
-      }
+
+          },
+
+          {
+
+            loader: 'css-loader',
+
+            options: {
+
+              modules: {
+
+                namedExport: true,
+                localIdentName: "[name]-[local]-[hash:base64:5]",
+
+              },
+
+            },
+
+          },
+
+        ],
+
+      },
+      {
+
+        test: /\.(png|jpg|jpeg)/,
+        type: 'asset/resource',
+ 
+      },
     ]
   }
 }
