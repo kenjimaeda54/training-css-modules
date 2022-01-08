@@ -1,7 +1,51 @@
-.card1  {
-  background-color: red;
+* {
+  box-sizing: border-box;
+
 }
 
-.card2 {
-  background-color: blue;
+.cardLeft {
+   max-width: 300px;
+   border-radius: 16px;
+   background-color: #ffff;
+   box-shadow: 2px 4px 8px rgba(0, 0, 0, .10);
+  
+}
+
+.cardAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+
+}
+
+.cardFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  padding: 18px 10px;
+}
+
+.headerFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerIcons {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.containerIcons img {
+  width: 20px;
+  height: 20px;
+}
+
+
+.containerProfileFooter {
+   display: flex;
+   gap: 5px;
 }
