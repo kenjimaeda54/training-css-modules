@@ -25,10 +25,10 @@ const footer = div({className: Style.cardFooter},[topFooter,description]);
 //card e uma classe global
 //vantagem que consigo reaproveitar o css
 //se olhar no inspetor estou com essa classe com nomes normais
-const Card = section({ className: Style.card },[
+const Video = section({ className: Style.card },[
   bob1,
   footer,
 ]);
 
 
-export default Card;
+export default Video;
