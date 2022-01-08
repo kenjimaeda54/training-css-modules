@@ -1,14 +1,8 @@
-* {
-  box-sizing: border-box;
-
-}
-
-.cardLeft {
-   max-width: 300px;
-   border-radius: 16px;
-   background-color: #ffff;
-   box-shadow: 2px 4px 8px rgba(0, 0, 0, .10);
-  
+.card  {
+  max-width: 300px;
+  border-radius: 16px;
+  background-color: #ffff;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, .10);
 }
 
 .cardAvatar {

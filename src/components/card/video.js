@@ -6,6 +6,7 @@ import Bob2 from "../../assets/bob2.jpg";
 import Like from "../../assets/like.png";
 import Dislike from "../../assets/dislike.png";
 import Message from "../../assets/message.png";
+import global from "../../global/card.css"
 
 const { section,img,h3,p,div  } = helper(h);
 
@@ -22,8 +23,10 @@ const description = p("Eu gostei muito dessa foto,eu dei like, aonde consigo dar
 const footer = div({className: cardFooter},[topFooter,description]);
 
 
-
-const Card = section({ className: cardLeft },[
+//card e uma classe global
+//vantagem que consigo reaproveitar o css
+//se olhar no inspetor estou com essa classe com nomes normais
+const Card = section({ className: "card" },[
   bob1,
   footer,
 ]);
