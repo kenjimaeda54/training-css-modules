@@ -21,6 +21,14 @@ Css trabalha em cascate então classes com mesmo nome podem sobrescrever estilos
   box-sizing: border-box;
   min-height: 100%;
 }
+```
+
+``` javascript
+
+import global from './global/format.css';
+const app = document.querySelector('#root');
+app.appendChild(Home);
+app.classList.add("main");
 
 
 ```
