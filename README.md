@@ -13,5 +13,4 @@ Css trabalha em cascate então classes com mesmo nome podem sobrescrever estilos
 - Compose e a possiblidade de usar outras classes no escopo, parecido com  .class a 
 
 
-![screenshot](has.png)
-
+![screenshot](hash.png)
